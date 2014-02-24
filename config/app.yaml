@@ -1,0 +1,13 @@
+default:
+  ups:
+    access_key: 0CCC2C9964B0A006
+    username: tatumszymczak
+    password: Pa88word
+    environment: sandbox
+
+production:
+  ups:
+    access_key: 0CCC2C9964B0A006
+    username: tatumszymczak
+    password: Pa88word
+    environment: live

@@ -1,0 +1,19 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+
+
+
+  h2 Results
+  ul
+    for result in results
+
+      h2 Shipments
+      ul
+        for shipment in result.shipments
+
+          li= shipment.TotalCharges.MonetaryValue
+          = service_codes[shipment.Service.Code]
+
