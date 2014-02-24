@@ -13,6 +13,6 @@ logs
 results
 build
 .grunt
-config/app.yml
+/config/app.yml
 
 node_modules
