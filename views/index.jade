@@ -15,5 +15,6 @@ block content
         for shipment in result.shipments
 
           li= shipment.TotalCharges.MonetaryValue
-          = service_codes[shipment.Service.Code]
+
+          = service_codes[ ("0" + shipment.Service.Code).slice (-2) ]
 
