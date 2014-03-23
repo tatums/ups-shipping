@@ -1,5 +1,5 @@
 {
-  "name": "application-name",
+  "name": "ups-quotes",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -8,7 +8,6 @@
   "dependencies": {
     "express": "3.4.8",
     "jade": "*",
-    "ups_node": "0.0.x",
     "shipping-ups": "0.4.x",
     "async":  "0.2.x",
     "yaml-config": "0.3.x"
